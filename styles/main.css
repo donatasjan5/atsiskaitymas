@@ -141,4 +141,8 @@ main ul {
     li {
         border: 1px solid white;
     }
+
+    .hero p {
+        text-align: center;
+    }
 }
