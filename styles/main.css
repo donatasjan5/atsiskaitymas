@@ -4,7 +4,6 @@ body {
     height: 100vh;
 }
 
-
 header svg {
     width: 100px;
     height: auto;
@@ -76,33 +75,6 @@ main ul {
 }
 
 /* modalas */
-
-
-/* #tabs {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
-} */
-
-/* #tabs li {
-    float: left;
-}
-
-#tabs li a {
-    display: block;
-    color: #333;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-} */
-
-/* #tabs li a:hover {
-    background-color: #ddd;
-} */
-
 .modal {
     display: none;
     position: fixed;
