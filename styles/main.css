@@ -29,7 +29,8 @@ main p {
 }
 
 .hero {
-    border-bottom: 1px solid white
+    border-bottom: 1px solid white;
+    margin-bottom: 40px;
 }
 
 ul {
@@ -75,15 +76,17 @@ main ul {
 }
 
 /* modalas */
-#tabs {
+
+
+/* #tabs {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: transparent;
-}
+} */
 
-#tabs li {
+/* #tabs li {
     float: left;
 }
 
@@ -94,11 +97,11 @@ main ul {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-}
+} */
 
-#tabs li a:hover {
+/* #tabs li a:hover {
     background-color: #ddd;
-}
+} */
 
 .modal {
     display: none;
@@ -142,4 +145,23 @@ main ul {
 .headerX {
     display: flex;
     justify-content: space-between;
+}
+
+@media only screen and (min-width: 769px) {
+    header {
+        display: flex;
+        justify-content: center;
+        border-bottom: none;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: none;
+    }
+
+    li {
+        border: 1px solid white;
+    }
 }
