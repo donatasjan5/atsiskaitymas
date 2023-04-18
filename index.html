@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/main.css">
+    <script src="./scripts/main.js" defer></script>
 </head>
 
 <body>
@@ -33,14 +34,32 @@
     </section>
 
     <section>
-        <main>
-            <ul>
-                <li value="INTRO">Intro</li>
-                <li value="WORK">Work</li>
-                <li value="ABOUT">About</li>
-                <li value="CONTACT">Contact</li>
-            </ul>
-        </main>
+        <ul id="tabs">
+            <li value="INTRO">Intro</li>
+            <li value="WORK">Work</li>
+            <li value="ABOUT">About</li>
+            <li value="CONTACT">Contact</li>
+        </ul>
+
+        <!-- Modalas -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="headerX">
+                    <h2>INTRO</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="picPar">
+                    <img src="/resources/tab-2.jpg" alt="Modal Image">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut libero natus ea tempore facere?
+                        Consequuntur Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis pariatur iure
+                        odio, error totam soluta cumque aperiam id, et provident officiis ab quasi excepturi nam
+                        explicabo dolores culpa sunt eaque. eveniet sit veritatis molestiae ipsum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium praesentium ipsam iure
+                        voluptatem corporis, id ab ad aliquam consequatur, repellendus voluptate voluptates libero
+                        delectus accusamus deserunt exercitationem a quaerat architecto!</p>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 
